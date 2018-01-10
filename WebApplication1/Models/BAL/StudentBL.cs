@@ -11,6 +11,7 @@ namespace WebApplication1.Models.BAL
         public int SaveStudent(textbox id)
         {
             int result = 0;
+            int nxtresult = 0;
             using (StudentEntities ctx = new StudentEntities()) {
 
                 tbl_student obj = new tbl_student();
